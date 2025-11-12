@@ -8,9 +8,9 @@
 </head>
 <body>
   <h1>RECIPE FEED</h1>
-  <div id="loadingOverlay">Please wait, we are creating yummy dishes😋...</div>
+  <div id="loadingOverlay">Showing dishes recently uploaded</div>
   <div class="controls">
-    <input id="search" placeholder="Search recipes😋 using title..." />
+    <input id="search" placeholder="Search recipes using title" />
     <a id="travellink" href="submit.html">Share your recipe</a>
   </div>
   <div class="recipe-container" id="recipes"></div>
@@ -84,7 +84,7 @@
           if (e.target === e.currentTarget) hidePopup();
         });
       } catch (error) {
-        document.getElementById("loadingOverlay").textContent = "Failed to load. Nothing in the kitchen🥲.";
+        document.getElementById("loadingOverlay").textContent = "Failed to load Nothing in the kitchen";
       }
     }
 
